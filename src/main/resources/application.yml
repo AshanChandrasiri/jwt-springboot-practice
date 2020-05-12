@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      database: JwtSpringbootDB
+      host: localhost
+      port: 27017
+
+
+jwtspringapp:
+  example:
+    jwtSecret: bezKoderSecretKey
+    jwtExpirationMs: 86400000
+
